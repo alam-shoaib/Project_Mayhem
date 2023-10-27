@@ -1,0 +1,138 @@
+
+
+
+
+
+
+
+
+  .Title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30%;
+    justify-content: center;
+    color: rgb(173, 0, 0) ;
+ border-bottom: 1px solid rgb(218, 187, 187);
+ position: relative;
+}
+
+  
+  .logo {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    width: 65px; /* Adjust the width as needed */
+    height: 65px; /* Adjust the height as needed */
+  
+}
+
+  
+.navbar {
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+    background-color:  rgba(230, 213, 182, 0.856)
+  }
+  
+  .navbar a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
+    padding: 5px 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color:rgb(173, 0, 0) ;
+  }
+  /* Login button styles */
+.login-butt {
+    position:absolute;
+    top:87px;
+    right:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(173, 0, 0); /* Background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: end;
+  }
+  
+  /* Login button hover state */
+  .login-butt:hover {
+    background-color: #1d0000; /* Darker background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  /* ImageSlider.css */
+
+.image-slider-container {
+    position: relative;
+    overflow: hidden;
+    top:50px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .border-top {
+    width: 100%;
+    height: 1px;
+    background-color:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .border-bottom {
+    width: 100%;
+    height: 0px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .carousel .slider-wrapper .slider .carousel-status {
+    color: black; /* Change the arrow color to black */
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  .image-slider-container + .image-slider-container {
+    margin-top: 55px; /* Adjust the desired spacing */
+  }
+ .head{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    top:87%;
+    left:20px;
+    border-bottom: 1 px solid black;
+    color: rgb(173, 0, 0) ;
+ 
+ }
+
+
+ 
+
+
+  
