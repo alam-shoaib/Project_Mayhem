@@ -5,7 +5,7 @@ import Campus from './Components/Campus';
 import Courses from './Components/Courses';
 import Facilities from './Components/Facilities';
 import Placement from './Components/Placement';
-import Home from './Components/Home';
+import Home from './Components/LandingPage/Home';
 //import Dropdown from './Components/Dropdown';
 //import Navbar from './Components/Navbar';
 //import './Components/Home.css';
